@@ -1,4 +1,4 @@
-package com.karthik.service;
+package com.karthik.sfgdi.service;
 
 public interface GreetingService {
     String sayGreeting();

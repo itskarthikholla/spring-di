@@ -1,4 +1,11 @@
 package com.karthik.sfgdi.service;
 
-public class GreetingRepository {
+public interface GreetingRepository {
+
+    String getEnglishGreeting();
+
+    String getSpanishGreeting();
+
+    String getGermanGreeting();
 }
+
