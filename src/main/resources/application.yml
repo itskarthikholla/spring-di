@@ -1,0 +1,14 @@
+guru:
+  jms:
+    username: Karthiks
+    password: password
+    dburl: Mongo URl
+
+---
+spring:
+  profiles:
+    active: de
+
+guru:
+  jms:
+    username: From YAML
